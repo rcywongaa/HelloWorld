@@ -1,7 +1,7 @@
-set(PROJ_SRC
+set(SRC
     main.cpp
 )
 
 #find_package (Threads REQUIRED)
 
-add_executable(helloworld main.cpp)
+add_executable(helloworld ${SRC})
