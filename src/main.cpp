@@ -1,6 +1,6 @@
-#include <cstdio>
+#include "print_hello.hpp"
 
 int main(int argc, char** argv)
 {
-    printf("Hello World!\n");
+    print_hello();
 }

@@ -5,3 +5,4 @@ set(SRC
 #find_package (Threads REQUIRED)
 
 add_executable(helloworld ${SRC})
+target_link_libraries(helloworld HelloLib)
